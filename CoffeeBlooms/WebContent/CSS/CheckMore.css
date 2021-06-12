@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image:url(coffeebloom.jpg);
+	background-size: cover;
+    background-position: fixed;
+    background-repeat :no-repeat;
+    height:100%;
+	}
+	.box h2{
+	color: blue;
+	font-weight: 500;
+}

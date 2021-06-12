@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url(coffeebloom.jpg);	
+	background-size: cover;
+    background-position: fixed;
+    background-repeat :no-repeat;
+    height:100%;
+}
+.menu-bar{
+    background: transparent;
+    border-radius: inherit;
+    text-align: left;
+	font-weight :500px;    
+    
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none ;
+   
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 5px;
+    padding: 10px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar ul li:hover
+{
+    background:lightblue;
+    min-height: fit-content;
+    border-radius: 15px;
+}
+.box{
+	width: 300px;
+	padding: 50px;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: transparent;
+	text-align: center;
+	border : 1px solid black;
+	color : blue;
+}
+.box h2{
+	color: blue;
+	font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"],.box input[type= "number"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 150px;
+	outline: none;
+	colour: blue;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"],.box input[type="number"]:focus
+ {
+	width: 180px;
+	border-color: #2ecc71;
+}
+.box input[type ="submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 10px;
+	outline: none;
+	colour: white;
+	border-radius: 24px;
+	transition: 0.25s;	
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	background: #2ecc71;
+}
